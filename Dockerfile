@@ -1,4 +1,4 @@
-FROM node:4.6
+FROM docker.repo/node:lts-alpine
 WORKDIR /app
 ADD . /app
 RUN npm install
